@@ -1,0 +1,26 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/.gitignore
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform variable override files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Sensitive plan output
+*.plan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Lock file (only ignore if using Terraform across multiple OS/dev setups)
+# Optional: Keep it if you're using Terraform 0.14+ with consistent environments
+# .terraform.lock.hcl
